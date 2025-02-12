@@ -47,12 +47,16 @@ div.info{
     grid-template-columns: 1fr 1fr;
     column-gap: 60px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .footer{
     height: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 header{
@@ -86,6 +90,18 @@ ELEMENTS
     border: 5px solid #D35400;
     border-radius: 50%;
     background-color: white;
+}
+
+.cercle2{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #BDC3C7;
+    background-color: white;
+
 }
 
 
